@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Backroads Flexbox</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Backroads.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <img src="./images/logo.svg" class="nav-logo">
+                    <button type="button" class="nav-toggle" id="nav-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" class="nav-link scroll-link">home</a></li>
+                    <li><a href="#about" class="nav-link scroll-link">about</a></li>
+                    <li><a href="#services" class="nav-link scroll-link">services</a></li>
+                    <li><a href="#featured" class="nav-link scroll-link">featured</a></li>
+                    <li><a href="#gallery" class="nav-link scroll-link">gallery</a></li>
+                </ul>
+                <ul class="nav-icons">
+                    <li><a href="#" target="_blank" class="nav-icon"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank" class="nav-icon"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank" class="nav-icon"><i class="fa-brands fa-squarespace"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-banner">
+                <h1>Continue exploring</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vel accusamus facilis!</p>
+                <a href="#featured" class="btn hero-btn scroll-link">Explore tours</a>
+            </div>
+        </div>
+    </header>
+    <section class="section" id="about">
+        <div class="section-title">
+            <h2>about <span>us</span></h2>
+        </div>
+        <div class="section-center about-center">
+            <article class="about-img">
+                <img src="./images/main.jpeg" class="about-photo" alt="awesome beach">
+            </article>
+            <article class="about-info">
+                <h3>explore the diffrence</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus similique asperiores libero.
+                    Nulla, fuga. Cumque, sunt? Reiciendis cum ex quae rerum exercitationem quam vel autem blanditiis
+                    dolorem debitis accusantium ducimus numquam hic aliquid laboriosam eligendi, vitae sint enim placeat
+                    maiores, ab consequuntur odit! Similique velit eaque dicta sit debitis numquam!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laudantium aspernatur deserunt
+                    error fugit nihil repudiandae quibusdam consectetur voluptas in!</p>
+                <a href="#" class="btn">Read more</a>
+            </article>
+        </div>
+    </section>
+    <section class="section services" id="services">
+        <div class="section-title">
+            <h2>our <span>services</span></h2>
+        </div>
+        <div class="section-center services-center">
+            <article class="service">
+                <span class="service-icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </span>
+                <div class="service-info">
+                    <h4 class="service-title">saving money</h4>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit</p>
+                </div>
+            </article>
+            <article class="service">
+                <span class="service-icon">
+                    <i class="fa-solid fa-tree"></i>
+                </span>
+                <div class="service-info">
+                    <h4 class="service-title">endless biking</h4>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit.</p>
+                </div>
+            </article>
+            <article class="service">
+                <span class="service-icon">
+                    <i class="fa-solid fa-socks"></i>
+                </span>
+                <div class="service-info">
+                    <h4 class="service-title">amazing comfort</h4>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="section" id="featured">
+        <div class="section-title">
+            <h2>featured <span>tours</span></h2>
+        </div>
+        <div class="section-center featured-center">
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./images/tour-1.jpeg" class="tour-img" alt="">
+                    <p class="tour-date">October 20th, 2024</p>
+                </div>
+                <div class="tour-info">
+                    <div class="tour-title">
+                        <h4>tibet adventure</h4>
+                        <p>6 days</p>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus accusamus, laboriosam
+                        reiciendis amet sint incidunt quae doloremque hic ipsum?</p>
+                    <div class="tour-footer">
+                        <p>
+                            <span><i class="fa-solid fa-map"></i> china</span>
+                        </p>
+                        <p>from $2100</p>
+                    </div>
+                </div>
+            </article>
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./images/tour-2.jpeg" class="tour-img" alt="">
+                    <p class="tour-date">October 20th, 2024</p>
+                </div>
+                <div class="tour-info">
+                    <h4>best of java</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus accusamus, laboriosam
+                        reiciendis amet sint incidunt quae doloremque hic ipsum?</p>
+                    <div class="tour-footer">
+                        <p>
+                            <span><i class="fa-solid fa-map"></i> indonesia</span>
+                        </p>
+                        <p>11 days</p>
+                        <p>from $1400</p>
+                    </div>
+                </div>
+            </article>
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./images/tour-3.jpeg" class="tour-img" alt="">
+                    <p class="tour-date">October 20th, 2024</p>
+                </div>
+                <div class="tour-info">
+                    <h4>exxplor hong kong</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus accusamus, laboriosam
+                        reiciendis amet sint incidunt quae doloremque hic ipsum?</p>
+                    <div class="tour-footer">
+                        <p>
+                            <span><i class="fa-solid fa-map"></i> hong kong</span>
+                        </p>
+                        <p>8 days</p>
+                        <p>from $5000</p>
+                    </div>
+                </div>
+            </article>
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./images/tour-4.jpeg" class="tour-img" alt="">
+                    <p class="tour-date">October 20th, 2024</p>
+                </div>
+                <div class="tour-info">
+                    <h4>kenya highlights</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus accusamus, laboriosam
+                        reiciendis amet sint incidunt quae doloremque hic ipsum?</p>
+                    <div class="tour-footer">
+                        <p>
+                            <span><i class="fa-solid fa-map"></i> kenya</span>
+                        </p>
+                        <p>20 days</p>
+                        <p>from $3300</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="tour-btn">
+            <a href="#" class="btn">all tours</a>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="gallery-center">
+           <article class="gallery-img-container">
+            <img src="./images/tour-1.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+           <article class="gallery-img-container">
+            <img src="./images/tour-2.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+           <article class="gallery-img-container">
+            <img src="./images/tour-3.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+           <article class="gallery-img-container">
+            <img src="./images/tour-4.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+           <article class="gallery-img-container">
+            <img src="./images/tour-5.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+           <article class="gallery-img-container">
+            <img src="./images/tour-6.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+           <article class="gallery-img-container">
+            <img src="./images/tour-4.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+           <article class="gallery-img-container">
+            <img src="./images/tour-3.jpeg" class="gallery-img" alt="">
+            <a href="#" class="gallery-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+           </article>
+        </div>
+       </section>
+       <footer class="section footer">
+        <ul class="footer-links">
+          <li><a href="#home" class="footer-link scroll-link">home</a></li>
+          <li><a href="#about" class="footer-link scroll-link">about</a></li>
+          <li><a href="#services" class="footer-link scroll-link">services</a></li>
+          <li><a href="#featured" class="footer-link scroll-link">fetured</a></li>
+          <li><a href="#gallery" class="footer-link scroll-link">gallery</a></li>
+        </ul>
+    
+        <ul class="footer-icons">
+          <li><a href="#" target="_blank" class="footer-icon"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#" target="_blank" class="footer-icon"><i class="fa-brands fa-twitter"></i></i></a></li>
+          <li><a href="#" target="_blank" class="footer-icon"><i class="fa-brands fa-squarespace"></i></i></a></li>
+        </ul>
+    
+        <p class="copyright">
+          copyright &copy; Project Flex-Box  <span id="date"></span> .Lập trình web - 2024
+        </p>
+       </footer>
+</body>
+
+</html>
